@@ -1,8 +1,9 @@
-## Earthquake-project
-Dataset - Worldwide earthquake data from beginning of February 2022 to now of at least magnitude 2.5. This data was taken from the USGS earthquakes website by running the following data search query to return both json and csv data : 
+###### Earthquake-project
+### Dataset
+Worldwide earthquake data from beginning of February 2022 to now of at least magnitude 2.5. This data was taken from the USGS earthquakes website by running the following data search query to return both json and csv data : 
 https://earthquake.usgs.gov/earthquakes/map/?extent=-89.50704,-382.5&extent=89.50096,742.5&range=search&timeZone=utc&search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222022-2-01%2000:00:00%22,%22endtime%22:%222022-10-01%2023:59:59%22,%22minmagnitude%22:2.5,%22orderby%22:%22time%22%7D%7D
 
-##Metadata - 
+### Metadata 
 <title>Web Tools - Earthquake Hazards | U.S. Geological Survey</title>
 <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?rjxc41" />
 <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?rjxc41" />
@@ -48,10 +49,10 @@ https://earthquake.usgs.gov/earthquakes/map/?extent=-89.50704,-382.5&extent=89.5
 
 
 
-##Topic & Rationale -
+### Topic & Rationale 
 As the world changes around us we are seeing ever increasing natural cataclysmic events resulting in the further need to reflect on historical events to better allow us to predict what may happen in the future. For this project we decided to focus on recent worldwide Earthquake Data available at earthwake.usgs.gov to create an user-friendly worldwide map of Earthquakes using the following criteria from the observed columns Latitude, Longitude, Magnitude, Depth, Time & Place. We then also created other relevant visualizations utilizing the data retrieved.
 
-##Process
+### Process
 
 The data was extracted from the above link into a CSV file utilizing a Juypter Notebook and importing Panda's Library the CSV was read in to review what columns would be relevent to the visulisations that we wanted to create. After identifying the columns of interest as being place, mag, depth, longitude,latitude & time, a cleaned data frame was created and then exported to a new output CSV.
 
