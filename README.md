@@ -1,4 +1,4 @@
-###### Earthquake-project
+# Earthquake-project
 ### Dataset
 Worldwide earthquake data from beginning of February 2022 to now of at least magnitude 2.5. This data was taken from the USGS earthquakes website by running the following data search query to return both json and csv data : 
 https://earthquake.usgs.gov/earthquakes/map/?extent=-89.50704,-382.5&extent=89.50096,742.5&range=search&timeZone=utc&search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222022-2-01%2000:00:00%22,%22endtime%22:%222022-10-01%2023:59:59%22,%22minmagnitude%22:2.5,%22orderby%22:%22time%22%7D%7D
@@ -57,4 +57,13 @@ As the world changes around us we are seeing ever increasing natural cataclysmic
 The data was extracted from the above link into a CSV file utilizing a Juypter Notebook and importing Panda's Library the CSV was read in to review what columns would be relevent to the visulisations that we wanted to create. After identifying the columns of interest as being place, mag, depth, longitude,latitude & time, a cleaned data frame was created and then exported to a new output CSV.
 
 ![image](https://user-images.githubusercontent.com/108265105/197743730-020c0b46-b732-4ea2-8ab7-2d5d686d311c.png)
+
+Utilizing pymongo and MongoDB this Data Frame was stored in a non relational DataFrame
+
+![image](https://user-images.githubusercontent.com/108265105/197745343-97ded53b-8b94-4f3b-8a5e-1fdb05cdeb0e.png)
+
+
+
+
+
 
