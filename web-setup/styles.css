@@ -6,15 +6,15 @@
 }
 
 .flexbox-item {
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 262px;
     margin: 10px;
     border: 3px solid #333;
     background-color: #dfdfdf;
 }
 
 .flexbox-item-1 {
-    min-hight: 100px;
+    min-hight: 120px;
 }
 
 .flexbox-item-2 {
