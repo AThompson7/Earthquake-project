@@ -86,9 +86,9 @@ Earthquakes above magnitude 6 tend to occur closer to the Earth’s surface.
 
 ![Magnitude vs Depth](https://user-images.githubusercontent.com/108265105/198258680-a411c4d0-81da-4bcb-b4dc-c71dae7cdb83.png)
 
-Webpage was then created at the following link
+Webpage was then created 
 
-
+![Webpage](https://user-images.githubusercontent.com/108265105/198265288-404d665d-ffba-4cec-9b9e-b235f4b0fec9.png)
 
 
 
