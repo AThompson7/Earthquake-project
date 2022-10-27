@@ -62,9 +62,32 @@ Utilizing pymongo and MongoDB this Data Frame was stored in a non relational Dat
 
 ![image](https://user-images.githubusercontent.com/108265105/197745343-97ded53b-8b94-4f3b-8a5e-1fdb05cdeb0e.png)
 
-Interactive maps of the data were then created by calling openstreetmaps, using Leaflet and geoJson. These maps were created with mulyiple layers to allow for user interface. http://127.0.0.1:5500/index.html
+Interactive visualizations were then created using Leafet and Java Script files as well as using flexbox to deploy to the web.
+GeoJson data taken from earthquake.usgs.gov website for all earthquakes from February to October 2022.
+HTML file including leaflet CSS, leaflet javascript file, and the div element where we inserted the map.
+Multiple interactive layers were added to the map to allow the user to choose from satellite, street, topographic or terrain views as well as the option to click on the relevant data point to get further information as well as the magnitude being colour coded. http://127.0.0.1:5500/index.html
 
 ![image](https://user-images.githubusercontent.com/108265105/197766096-58e2267e-362c-4c6d-9ea5-a6d13260741c.png)
+
+### Analysis
+Earthquakes over time
+Total earthquakes in 2022 for each month were very similar.
+This supports the idea that there is an approximately equal distribution of earthquakes in cold, hot and rainy weather.
+There is some evidence of very large low-pressure changes associated with major storm events that can trigger slow earthquakes in the Earth’s crust but the numbers are very small.
+
+![Earthquakes Over Time](https://user-images.githubusercontent.com/108265105/198258650-a5c52ff3-0720-4574-aa85-1d1de69d2c98.png)
+
+Magnitude and Depth Relationship
+The p-value is 7.36 e-93.
+The r-squared is 0.02.
+The model is statistically significant but the low r-squared indicates low predictability.
+Most earthquakes around magnitude 4 occur at any depth below the Earth’s surface.
+Earthquakes above magnitude 6 tend to occur closer to the Earth’s surface.
+
+![Magnitude vs Depth](https://user-images.githubusercontent.com/108265105/198258680-a411c4d0-81da-4bcb-b4dc-c71dae7cdb83.png)
+
+Webpage was then created at the following link
+
 
 
 
