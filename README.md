@@ -52,7 +52,7 @@ https://earthquake.usgs.gov/earthquakes/map/?extent=-89.50704,-382.5&extent=89.5
 ### Topic & Rationale 
 As the world changes around us we are seeing ever increasing natural cataclysmic events resulting in the further need to reflect on historical events to better allow us to predict what may happen in the future. For this project we decided to focus on recent worldwide Earthquake Data available at earthwake.usgs.gov to create an user-friendly worldwide map of Earthquakes using the following criteria from the observed columns Latitude, Longitude, Magnitude, Depth, Time & Place. We then also created other relevant visualizations utilizing the data retrieved.
 
-### Process
+### The Process
 
 The data was extracted from the above link into a CSV file utilizing a Juypter Notebook and importing Panda's Library the CSV was read in to review what columns would be relevent to the visulisations that we wanted to create. After identifying the columns of interest as being place, mag, depth, longitude,latitude & time, a cleaned data frame was created and then exported to a new output CSV.
 
